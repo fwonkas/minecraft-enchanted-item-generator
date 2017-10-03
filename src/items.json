@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Wooden Sword",
+    "id": "wooden_sword"
+  },
+  {
+    "title": "Stone Sword",
+    "id": "stone_sword"
+  },
+  {
+    "title": "Iron Sword",
+    "id": "iron_sword"
+  },
+  {
+    "title": "Diamond Sword",
+    "id": "diamond_sword"
+  },
+  {
+    "title": "Golden Sword",
+    "id": "golden_sword"
+  },
+  {
+    "title": "Wooden Shovel",
+    "id": "wooden_shovel"
+  },
+  {
+    "title": "Stone Shovel",
+    "id": "stone_shovel"
+  },
+  {
+    "title": "Iron Shovel",
+    "id": "iron_shovel"
+  },
+  {
+    "title": "Diamond Shovel",
+    "id": "diamond_shovel"
+  },
+  {
+    "title": "Golden Shovel",
+    "id": "golden_shovel"
+  },
+  {
+    "title": "Wooden Pickaxe",
+    "id": "wooden_pickaxe"
+  },
+  {
+    "title": "Stone Pickaxe",
+    "id": "stone_pickaxe"
+  },
+  {
+    "title": "Iron Pickaxe",
+    "id": "iron_pickaxe"
+  },
+  {
+    "title": "Diamond Pickaxe",
+    "id": "diamond_pickaxe"
+  },
+  {
+    "title": "Golden Pickaxe",
+    "id": "golden_pickaxe"
+  },
+  {
+    "title": "Wooden Axe",
+    "id": "wooden_axe"
+  },
+  {
+    "title": "Stone Axe",
+    "id": "stone_axe"
+  },
+  {
+    "title": "Iron Axe",
+    "id": "iron_axe"
+  },
+  {
+    "title": "Diamond Axe",
+    "id": "diamond_axe"
+  },
+  {
+    "title": "Golden Axe",
+    "id": "golden_axe"
+  },
+  {
+    "title": "Wooden Hoe",
+    "id": "wooden_hoe"
+  },
+  {
+    "title": "Stone Hoe",
+    "id": "stone_hoe"
+  },
+  {
+    "title": "Iron Hoe",
+    "id": "iron_hoe"
+  },
+  {
+    "title": "Diamond Hoe",
+    "id": "diamond_hoe"
+  },
+  {
+    "title": "Golden Hoe",
+    "id": "golden_hoe"
+  },
+  {
+    "title": "Leather Helmet",
+    "id": "leather_helmet"
+  },
+  {
+    "title": "Chainmail Helmet",
+    "id": "chainmail_helmet"
+  },
+  {
+    "title": "Iron Helmet",
+    "id": "iron_helmet"
+  },
+  {
+    "title": "Diamond Helmet",
+    "id": "diamond_helmet"
+  },
+  {
+    "title": "Golden Helmet",
+    "id": "golden_helmet"
+  },
+  {
+    "title": "Leather Tunic",
+    "id": "leather_chestplate"
+  },
+  {
+    "title": "Chainmail Chestplate",
+    "id": "chainmail_chestplate"
+  },
+  {
+    "title": "Iron Chestplate",
+    "id": "iron_chestplate"
+  },
+  {
+    "title": "Diamond Chestplate",
+    "id": "diamond_chestplate"
+  },
+  {
+    "title": "Golden Chestplate",
+    "id": "golden_chestplate"
+  },
+  {
+    "title": "Leather Pants",
+    "id": "leather_leggings"
+  },
+  {
+    "title": "Chainmail Leggings",
+    "id": "chainmail_leggings"
+  },
+  {
+    "title": "Iron Leggings",
+    "id": "iron_leggings"
+  },
+  {
+    "title": "Diamond Leggings",
+    "id": "diamond_leggings"
+  },
+  {
+    "title": "Golden Leggings",
+    "id": "golden_leggings"
+  },
+  {
+    "title": "Leather Boots",
+    "id": "leather_boots"
+  },
+  {
+    "title": "Chainmail Boots",
+    "id": "chainmail_boots"
+  },
+  {
+    "title": "Iron Boots",
+    "id": "iron_boots"
+  },
+  {
+    "title": "Diamond Boots",
+    "id": "diamond_boots"
+  },
+  {
+    "title": "Golden Boots",
+    "id": "golden_boots"
+  }
+]

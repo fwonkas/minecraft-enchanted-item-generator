@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Protection",
+    "name": "protection",
+    "id": 0
+  },
+  {
+    "title": "Fire Protection",
+    "name": "fire_protection",
+    "id": 1
+  },
+  {
+    "title": "Feather Falling",
+    "name": "feather_falling",
+    "id": 2
+  },
+  {
+    "title": "Blast Protection",
+    "name": "blast_protection",
+    "id": 3
+  },
+  {
+    "title": "Projectile Protection",
+    "name": "projectile_protection",
+    "id": 4
+  },
+  {
+    "title": "Respiration",
+    "name": "repsiration",
+    "id": 5
+  },
+  {
+    "title": "Aqua Affinity",
+    "name": "aqua_affinity",
+    "id": 6
+  },
+  {
+    "title": "Thorns",
+    "name": "thorns",
+    "id": 7
+  },
+  {
+    "title": "Depth Strider",
+    "name": "depth_strider",
+    "id": 8
+  },
+  {
+    "title": "Frost Walker",
+    "name": "frost_walker",
+    "id": 9
+  },
+  {
+    "title": "Curse of Binding",
+    "name": "binding_curse",
+    "id": 10
+  },
+  {
+    "title": "Sharpness",
+    "name": "sharpness",
+    "id": 16
+  },
+  {
+    "title": "Smite",
+    "name": "smite",
+    "id": 17
+  },
+  {
+    "title": "Bane of Anthropods",
+    "name": "bane_of_anthropods",
+    "id": 18
+  },
+  {
+    "title": "Knockback",
+    "name": "knockback",
+    "id": 19
+  },
+  {
+    "title": "Fire Aspect",
+    "name": "fire_aspect",
+    "id": 20
+  },
+  {
+    "title": "Looting",
+    "name": "looting",
+    "id": 21
+  },
+  {
+    "title": "Sweeping Edge",
+    "name": "sweeping",
+    "id": 22
+  },
+  {
+    "title": "Efficiency",
+    "name": "efficiency",
+    "id": 32
+  },
+  {
+    "title": "Silk Touch",
+    "name": "silk_touch",
+    "id": 33
+  },
+  {
+    "title": "Unbreaking",
+    "name": "unbreaking",
+    "id": 34
+  },
+  {
+    "title": "Fortune",
+    "name": "fortune",
+    "id": 35
+  },
+  {
+    "title": "Power",
+    "name": "power",
+    "id": 48
+  },
+  {
+    "title": "Punch",
+    "name": "punch",
+    "id": 49
+  },
+  {
+    "title": "Flame",
+    "name": "flame",
+    "id": 50
+  },
+  {
+    "title": "Infinity",
+    "name": "infinity",
+    "id": 51
+  },
+  {
+    "title": "Luck of the Sea",
+    "name": "luck_of_the_sea",
+    "id": 61
+  },
+  {
+    "title": "Lure",
+    "name": "lure",
+    "id": 62
+  },
+  {
+    "title": "Mending",
+    "name": "mending",
+    "id": 70
+  },
+  {
+    "title": "Curse of Vanishing",
+    "name": "vanishing_curse",
+    "id": 71
+  }
+]
