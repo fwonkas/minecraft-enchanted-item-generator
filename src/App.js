@@ -89,7 +89,7 @@ class App extends Component {
   doOutput(ench, lvls) {
     const zipped = zip(ench, lvls);
     const result = zipped.map(en => {
-      return `{id:${en[0]},lvl:${en[1]}}`
+      return `{id:${en[0]}s,lvl:${en[1]}s}`
     });
     return result.join(',');
   }
