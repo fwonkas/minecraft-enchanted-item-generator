@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Selection from './components/Selection';
-import { uniqueId, zip } from 'lodash';
+import { uniqueId, zip, cloneDeep } from 'lodash';
 import items from './items.json';
 import ench from './ench.json';
 import Level from './components/Level';
@@ -27,7 +27,7 @@ class App extends Component {
 
   addSelection(e) {
     e.preventDefault();
-    const { enchs, selEnchs, selLevels } = this.state;
+    const { enchs, selEnchs, selLevels } = cloneDeep(this.state);
     enchs.push(ench);
     selEnchs[enchs.length - 1] = enchs[enchs.length - 1][0].id;
     selLevels[enchs.length - 1] = 1;
@@ -38,12 +38,14 @@ class App extends Component {
 
   deleteSelection(e) {
     e.preventDefault();
-    const { enchs, selEnchs, selLevels } = this.state;
+    const { enchs, selEnchs, selLevels } = cloneDeep(this.state);
     enchs.splice(e.target.dataset.index, 1);
     selEnchs.splice(e.target.dataset.index, 1);
     selLevels.splice(e.target.dataset.index, 1);
     this.setState({
-      enchs, selEnchs, selLevels
+      enchs,
+      selEnchs,
+      selLevels
     });
   }
 
