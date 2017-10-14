@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Selection from './components/Selection';
-import { uniqueId, zip, cloneDeep } from 'lodash';
+import { uniqueId, zip, cloneDeep, last } from 'lodash';
 import items from './items.json';
 import ench from './ench.json';
 import Level from './components/Level';
@@ -32,8 +32,8 @@ class App extends Component {
     e.preventDefault();
     const { enchs, selEnchs, selLevels } = cloneDeep(this.state);
     enchs.push(ench);
-    selEnchs[enchs.length - 1] = enchs[enchs.length - 1][0].id;
-    selLevels[enchs.length - 1] = 1;
+    selEnchs.push(last(enchs)[0].id);
+    selLevels.push(1);
     this.setState({
       enchs,
       selEnchs,
