@@ -64,7 +64,7 @@ class App extends Component {
 
   onEnchantmentChange(e) {
     const { target } = e;
-    const { selEnchs } = this.state;
+    const { selEnchs } = cloneDeep(this.state);
     const index = target.dataset.index;
     selEnchs[index] = target.value;
     this.setState({ selEnchs });
@@ -72,7 +72,7 @@ class App extends Component {
 
   onLevelChange(e) {
     const { target } = e;
-    const { selLevels } = this.state;
+    const { selLevels } = cloneDeep(this.state);
     const index = target.dataset.index;
     selLevels[index] = target.value;
     this.setState({ selLevels });
