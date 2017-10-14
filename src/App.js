@@ -32,7 +32,7 @@ class App extends Component {
     selEnchs[enchs.length - 1] = enchs[enchs.length - 1][0].id;
     selLevels[enchs.length - 1] = 1;
     this.setState({
-      enchs, selEnchs
+      enchs, selEnchs, selLevels
     });
   }
 
