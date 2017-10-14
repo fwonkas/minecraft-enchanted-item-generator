@@ -178,5 +178,13 @@
   {
     "title": "Golden Boots",
     "id": "golden_boots"
+  },
+  {
+    "title": "Bow",
+    "id": "bow"
+  },
+  {
+    "title": "Fishing Rod",
+    "id": "fishing_rod"
   }
 ]
