@@ -32,7 +32,9 @@ class App extends Component {
     selEnchs[enchs.length - 1] = enchs[enchs.length - 1][0].id;
     selLevels[enchs.length - 1] = 1;
     this.setState({
-      enchs, selEnchs, selLevels
+      enchs,
+      selEnchs,
+      selLevels
     });
   }
 
@@ -88,6 +90,7 @@ class App extends Component {
     });
     return selects;
   }
+
   doOutput(ench, lvls) {
     const zipped = zip(ench, lvls);
     const result = zipped.map(en => {
@@ -95,6 +98,7 @@ class App extends Component {
     });
     return result.join(',');
   }
+
   render() {
     const { enchs, selEnchs, selLevels, selItem } = this.state;
 
