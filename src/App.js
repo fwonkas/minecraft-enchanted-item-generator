@@ -80,8 +80,8 @@ class App extends Component {
       const selectedItem = selEnchs[index];
       const selectedLevel = selLevels[index];
       selects.push(
-        <div>
-          <Selection currentValue={ selectedItem } onChange={ this.onEnchantmentChange } key={ uniqueId(`selection-${index}`) } index={ index } options={ selection } />{' '}
+        <div key={uniqueId(`enchantment-${index}`)}>
+          <Selection currentValue={ selectedItem } onChange={ this.onEnchantmentChange } index={ index } options={ selection } />{' '}
           <Level currentValue={ selectedLevel } onChange={ this.onLevelChange } index={ index }/>{' '}
           <DeleteButton onClick={ this.deleteSelection } index={ index }/>
         </div>);
