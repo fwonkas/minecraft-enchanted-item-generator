@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import Selection from './Selection';
 
 class Level extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { onChange, index, currentValue } = this.props;
     return <Selection currentValue={ currentValue } onChange={ onChange } index={ index } name="thing" options={ [
