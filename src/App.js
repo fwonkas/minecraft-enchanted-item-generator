@@ -7,6 +7,7 @@ import ench from './ench.json';
 import Level from './components/Level';
 import AddButton from './components/AddButton';
 import DeleteButton from './components/DeleteButton';
+import sortByTitle from './sortByTitle';
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +17,8 @@ class App extends Component {
     this.onItemChange = this.onItemChange.bind(this);
     this.onEnchantmentChange = this.onEnchantmentChange.bind(this);
     this.onLevelChange = this.onLevelChange.bind(this);
+    sortByTitle(items);
+    sortByTitle(ench);
     const selections = [ ench ];
     this.state = {
       enchs: selections,
